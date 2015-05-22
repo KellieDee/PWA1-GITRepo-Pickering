@@ -54,7 +54,7 @@
             roundNum.innerHTML = "ROUND " + round + " OVER";                            // Set HTML to display Round Over message,
             console.log("Round " + round + " ends.");                                   // Print round to console
         }else{                                                                          // ELSE,
-            button.removeEventListener("click", fight);  // End the game by disabling the button
+            button.removeEventListener("click", fight);                                 // End the game by disabling the button
             button.innerHTML = "DONE!";                                                 // Set HTML to display finished message
         }
 
